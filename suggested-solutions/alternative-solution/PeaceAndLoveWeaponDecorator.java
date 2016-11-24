@@ -31,6 +31,6 @@ public class PeaceAndLoveWeaponDecorator extends WeaponDecorator{
 
   @Override
   public String toString(){
-    return super.toString() + " of class " + this.getClass().getName();
+    return super.toString();
   }
 }
